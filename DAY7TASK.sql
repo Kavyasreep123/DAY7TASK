@@ -36,8 +36,7 @@ FROM
 JOIN 
     Departments d ON e.DepartmentID = d.DepartmentID;
 
--- Query the View
 SELECT * FROM EmployeeDepartmentView;
 
--- Filtered Query Example
+
 SELECT * FROM EmployeeDepartmentView WHERE DeptName = 'HR';
